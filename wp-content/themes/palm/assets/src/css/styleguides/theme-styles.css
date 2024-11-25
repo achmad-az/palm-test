@@ -1,0 +1,145 @@
+/* Theme style */
+
+.theme-dark {
+    /* general */
+    --theme-bg-color: var(--color-sacramento);
+    --theme-bg-content-color: var(--color-sacramento);
+    --theme-text-color: var(--color-chiffon);
+    --theme-text-prm-color: var(--color-sage);
+    --theme-text-alt-color: var(--color-grey-700);
+    --theme-text-alt-2-color: var(--color-grey-700);
+    --theme-text-alt-3-color: var(--color-celadon-green);
+    --theme-text-content-color: var(--color-grey-300);
+    --theme-text-scd-color: var(--color-grey-300);
+    --theme-text-thd-color: var(--color-sage);
+    --theme-text-fth-color: var(--color-sage);
+    --theme-img-color: var(--color-grey-700);
+    --theme-img-vid-color: var(--color-sage);
+    --theme-divider-color: var(--color-greengoblin-1f);
+    --theme-text-tab-vid-color: var(--color-grey-100);
+    --theme-text-tab-2-vid-color: var(--color-grey-500);
+    --theme-text-share-color: var(--color-sage);
+    --theme-text-cat-color: var(--color-grey-700);
+    --theme-scrollbar-color: var(--color-grey-900);
+    --theme-text-link-color: var(--color-greengoblin-4b);
+    --swiper-theme-color: var(--color-grey-700);
+
+    /* header and footer */
+    --theme-header-bg-color: var(--color-sacramento);
+    --theme-header-divider-color: var(--color-grey-900);
+    --theme-header-search-border-color: rgba(255, 237, 210, 0.4);
+
+    --theme-footer-bg-color: var(--color-sacramento);
+    --theme-footer-divider-color: var(--color-grey-900);
+    --theme-footer-text-color: var(--color-chiffon);
+
+    /* subscribe box */
+    --theme-bg-subs-box-color: var(--color-sage);
+    --theme-text-subs-box-color: var(--color-sacramento);
+}
+
+.goblin-mode {
+    /* general */
+    --theme-bg-color: var(--color-chiffon-light-active);
+    --theme-bg-content-color: var(--color-chiffon-light-active);
+    --theme-text-color: var(--color-pine);
+    --theme-text-prm-color: var(--color-greengoblin-42);
+    --theme-text-alt-color: var(--color-grey-900);
+    --theme-text-alt-2-color: var(--color-grey-700);
+    --theme-text-alt-3-color: var(--color-celadon-green);
+    --theme-text-content-color: var(--color-grey-900);
+    --theme-text-scd-color: var(--color-grey-700);
+    --theme-text-thd-color: var(--color-greengoblin-1f);
+    --theme-text-fth-color: var(--color-greengoblin-42);
+    --theme-img-color: var(--color-dark-brown);
+    --theme-img-vid-color: var(--color-greengoblin-4b);
+    --theme-divider-color: var(--color-lime-green);
+    --theme-text-tab-vid-color: var(--color-grey-900);
+    --theme-text-tab-2-vid-color: var(--color-grey-700);
+    --theme-text-share-color: var(--color-grey-900);
+    --theme-text-cat-color: var(--color-grey-700);
+    --theme-scrollbar-color: var(--color-grey-300);
+    --theme-text-link-color: var(--color-pine);
+    --swiper-theme-color: var(--color-grey-900);
+
+    /* header and footer */
+    --theme-header-bg-color: var(--color-chiffon-light-active);
+    --theme-header-divider-color: var(--color-sage);
+    --theme-header-search-border-color: var(--color-sage);
+
+    --theme-footer-bg-color: var(--color-black);
+    --theme-footer-divider-color: var(--color-sage);
+    --theme-footer-text-color: var(--color-chiffon);
+
+    /* subscribe box */
+    --theme-bg-subs-box-color: var(--color-blue-68);
+    --theme-text-subs-box-color: var(--color-white-80);
+
+    .input-dark {
+        @apply placeholder-grey-300 
+        text-grey-100 
+        bg-grey-900;
+    }
+
+    .input-light {
+        @apply placeholder-grey-300 
+        text-grey-100 
+        bg-grey-900;
+    }
+
+    footer {
+        --theme-text-color: var(--color-chiffon);
+    }
+
+    .theme-dark {
+        /* general */
+        --theme-bg-color: var(--color-sacramento);
+        --theme-bg-content-color: var(--color-sacramento);
+        --theme-text-color: var(--color-chiffon);
+        --theme-text-prm-color: var(--color-greengoblin-4b);
+        --theme-text-alt-color: var(--color-grey-500);
+        --theme-text-alt-2-color: var(--color-grey-700);
+        --theme-text-alt-3-color: var(--color-celadon-green);
+        --theme-text-content-color: var(--color-grey-300);
+        --theme-text-scd-color: var(--color-grey-500);
+        --theme-text-thd-color: var(--color-greengoblin-4b);
+        --theme-text-fth-color: var(--color-greengoblin-4b);
+        --theme-img-color: var(--color-grey-700);
+        --theme-img-vid-color: var(--color-greengoblin-4b);
+        --theme-divider-color: var(--color-greengoblin-1f);
+        --theme-text-tab-vid-color: var(--color-grey-100);
+        --theme-text-tab-2-vid-color: var(--color-grey-500);
+        --theme-text-share-color: var(--color-grey-500);
+        --theme-text-cat-color: var(--color-grey-500);
+        --theme-scrollbar-color: var(--color-grey-900);
+        --theme-text-link-color: var(--color-greengoblin-4b);
+        --swiper-theme-color: var(--color-grey-500);
+
+        /* header and footer */
+        --theme-header-bg-color: var(--color-sacramento);
+        --theme-header-divider-color: var(--color-grey-900);
+        --theme-header-search-border-color: rgba(255, 237, 210, 0.4);
+
+        --theme-footer-bg-color: var(--color-sacramento);
+        --theme-footer-divider-color: var(--color-grey-900);
+        --theme-footer-text-color: var(--color-chiffon);
+
+        /* subscribe box */
+        --theme-bg-subs-box-color: var(--color-greengoblin-42);
+        --theme-text-subs-box-color: var(--color-white-80);
+    }
+}
+
+.home {
+    .theme-dark {
+        /* general */
+        --theme-bg-color: var(--color-pine);
+        --theme-bg-content-color: var(--color-sacramento);
+        /* header and footer */
+        --theme-header-bg-color: var(--color-pine);
+    }
+}
+
+.dark {
+    --theme-bg-scrollbar-color: var(--color-sacramento);
+}

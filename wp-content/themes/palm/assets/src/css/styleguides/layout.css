@@ -1,0 +1,9 @@
+/* Container for layout content */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-content {
+    @apply container mx-auto px-[16px] md:px-[32px] lg:px-[72px];
+}

@@ -1,0 +1,82 @@
+/* Buttons*/
+
+@layer components {
+    .btn-prm {
+        --btn-height: 44px;
+        --btn-min-w: 196px;
+
+        @apply inline-flex 
+        justify-center 
+        items-center 
+        min-w-[--btn-min-w] 
+        typography-button 
+        uppercase 
+        rounded-[8px] 
+        transition 
+        ease-in-out 
+        duration-150 
+        text-sacramento 
+        bg-kelly-green
+        border
+        border-transparent
+        border-solid
+        px-[24px]
+        py-[12px]
+        h-[--btn-height];
+    }
+
+    .btn-prm:hover {
+        @apply border
+        border-solid
+        border-chiffon;
+    }
+
+    .btn-prm:active {
+        @apply border
+        border-solid
+        border-chiffon;
+    }
+
+    .btn-prm:focus {
+        @apply border
+        border-solid
+        border-chiffon
+        shadow-btn-prm-focus;
+    }
+
+    /* __TODO: change native css style to @apply syntax */
+    .btn-sec {
+        background-color: transparent;
+        color: var(--kelly_green);
+        padding: 12px 52px;
+        font-family: "Montagu Slab", serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18.2px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        transition:
+            background-color 0.3s,
+            box-shadow 0.3s,
+            border 0.3s;
+    }
+
+    .btn-sec:hover {
+        background-color: transparent;
+        color: var(--sacramento);
+        border: 1px solid var(--chiffon);
+    }
+
+    .btn-sec:active {
+        background-color: #284616;
+        color: var(--sacramento);
+        border: 1px solid var(--chiffon);
+    }
+
+    .btn-sec:focus {
+        background-color: transparent;
+        color: var(--sacramento);
+        border: 1px solid var(--chiffon);
+        box-shadow: 0 0 0 4px #72bf4433;
+    }
+}

@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "contentSize": "1024px",
+      "wideSize": "1280px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Kelly Green",
+          "slug": "kelly-green",
+          "color": "#72BF44",
+          "colorVar": "var(--color-kelly-green)"
+        },
+        {
+          "name": "Aspargus",
+          "slug": "aspargus",
+          "color": "#5D923D",
+          "colorVar": "var(--color-aspargus)"
+        },
+        {
+          "name": "Pine",
+          "slug": "pine",
+          "color": "#284616",
+          "colorVar": "var(--color-pine)"
+        },
+        {
+          "name": "Sacramento",
+          "slug": "sacramento",
+          "color": "#162114",
+          "colorVar": "var(--color-sacramento)"
+        },
+        {
+          "name": "Dark Brown",
+          "slug": "dark-brown",
+          "color": "#4C4417",
+          "colorVar": "var(--color-dark-brown)"
+        },
+        {
+          "name": "Sepia",
+          "slug": "sepia",
+          "color": "#734712",
+          "colorVar": "var(--color-sepia)"
+        },
+        {
+          "name": "Chiffon Light",
+          "slug": "chiffon-light",
+          "color": "#fffdfb",
+          "colorVar": "var(--color-chiffon-light)"
+        },
+        {
+          "name": "Chiffon Light Hover",
+          "slug": "chiffon-light-hover",
+          "color": "#fffcf8",
+          "colorVar": "var(--color-chiffon-light-hover)"
+        },
+        {
+          "name": "Chiffon Light Active",
+          "slug": "chiffon-light-active",
+          "color": "#fff9f1",
+          "colorVar": "var(--color-chiffon-light-active)"
+        },
+        {
+          "name": "Chiffon",
+          "slug": "chiffon",
+          "color": "#ffedd2",
+          "colorVar": "var(--color-chiffon)"
+        },
+        {
+          "name": "Chiffon Hover",
+          "slug": "chiffon-hover",
+          "color": "#e6d5bd",
+          "colorVar": "var(--color-chiffon-hover)"
+        },
+        {
+          "name": "Chiffon Active",
+          "slug": "chiffon-active",
+          "color": "#ccbea8",
+          "colorVar": "var(--color-chiffon-active)"
+        },
+        {
+          "name": "Chiffon Dark",
+          "slug": "chiffon-dark",
+          "color": "#bfb29e",
+          "colorVar": "var(--color-chiffon-dark)"
+        },
+        {
+          "name": "Chiffon Dark Hover",
+          "slug": "chiffon-dark-hover",
+          "color": "#998e7e",
+          "colorVar": "var(--color-chiffon-dark-hover)"
+        },
+        {
+          "name": "Chiffon Dark Active",
+          "slug": "chiffon-dark-active",
+          "color": "#736b5e",
+          "colorVar": "var(--color-chiffon-dark-active)"
+        },
+        {
+          "name": "Chiffon Darker",
+          "slug": "chiffon-darker",
+          "color": "#59534a",
+          "colorVar": "var(--color-chiffon-darker)"
+        },
+        {
+          "name": "Violet",
+          "slug": "violet",
+          "color": "#431F4C",
+          "colorVar": "var(--color-violet)"
+        },
+        {
+          "name": "Finn",
+          "slug": "finn",
+          "color": "#652F72",
+          "colorVar": "var(--color-finn)"
+        },
+        {
+          "name": "Plum",
+          "slug": "plum",
+          "color": "#863E98",
+          "colorVar": "var(--color-plum)"
+        },
+        {
+          "name": "Purpureus",
+          "slug": "purpureus",
+          "color": "#9E65AD",
+          "colorVar": "var(--color-purpureus)"
+        },
+        {
+          "name": "Lavender",
+          "slug": "lavender",
+          "color": "#D8B6E2",
+          "colorVar": "var(--color-lavender)"
+        },
+        {
+          "name": "Sheen Gold",
+          "slug": "sheen-gold",
+          "color": "#A5953B",
+          "colorVar": "var(--color-sheen-gold)"
+        },
+        {
+          "name": "Sage",
+          "slug": "sage",
+          "color": "#CBC290",
+          "colorVar": "var(--color-sage)"
+        },
+        {
+          "name": "Grey 100",
+          "slug": "grey-100",
+          "color": "#EBECE8",
+          "colorVar": "var(--color-grey-100)"
+        },
+        {
+          "name": "Grey 300",
+          "slug": "grey-300",
+          "color": "#C2C4B6",
+          "colorVar": "var(--color-grey-300)"
+        },
+        {
+          "name": "Grey 500",
+          "slug": "grey-500",
+          "color": "#9FA092",
+          "colorVar": "var(--color-grey-500)"
+        },
+        {
+          "name": "Grey 700",
+          "slug": "grey-700",
+          "color": "#6E6F61",
+          "colorVar": "var(--color-grey-700)"
+        },
+        {
+          "name": "Grey 900",
+          "slug": "grey-900",
+          "color": "#4C4C42",
+          "colorVar": "var(--color-grey-900)"
+        },
+        {
+          "name": "Green Goblin 42",
+          "slug": "green-goblin-42",
+          "color": "#156842",
+          "colorVar": "var(--color-greengoblin-42)"
+        },
+        {
+          "name": "Green Goblin 4B",
+          "slug": "green-goblin-4b",
+          "color": "#59C14B",
+          "colorVar": "var(--color-greengoblin-4b)"
+        },
+        {
+          "name": "Green Goblin 1F",
+          "slug": "green-goblin-1f",
+          "color": "#1E681F",
+          "colorVar": "var(--color-greengoblin-1f)"
+        },
+        {
+          "name": "White 80",
+          "slug": "white-80",
+          "color": "#FFFFFFCC",
+          "colorVar": "var(--color-white-80)"
+        },
+        {
+          "name": "Blue 68",
+          "slug": "blue-68",
+          "color": "#1E6068",
+          "colorVar": "var(--color-blue-68)"
+        },
+        {
+          "name": "Black",
+          "slug": "black",
+          "color": "#000000",
+          "colorVar": "var(--color-black)"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "name": "H6",
+          "slug": "h6",
+          "size": "20px"
+        },
+        {
+          "name": "Display",
+          "slug": "display",
+          "size": "80px"
+        },
+        {
+          "name": "H1",
+          "slug": "h1",
+          "size": "60px"
+        },
+        {
+          "name": "H2",
+          "slug": "h2",
+          "size": "48px"
+        },
+        {
+          "name": "H3",
+          "slug": "h3",
+          "size": "39px"
+        },
+        {
+          "name": "H4",
+          "slug": "h4",
+          "size": "31px"
+        },
+        {
+          "name": "H5",
+          "slug": "h5",
+          "size": "25px"
+        },
+        {
+          "name": "Button",
+          "slug": "button",
+          "size": "14px"
+        }
+      ],
+      "lineHeight": [
+        {
+          "name": "H6",
+          "slug": "h6",
+          "size": "26px"
+        },
+        {
+          "name": "Display",
+          "slug": "display",
+          "size": "88px"
+        },
+        {
+          "name": "H1",
+          "slug": "h1",
+          "size": "72px"
+        },
+        {
+          "name": "H2",
+          "slug": "h2",
+          "size": "57.6px"
+        },
+        {
+          "name": "H3",
+          "slug": "h3",
+          "size": "46.8px"
+        },
+        {
+          "name": "H4",
+          "slug": "h4",
+          "size": "37.2px"
+        },
+        {
+          "name": "H5",
+          "slug": "h5",
+          "size": "32.51px"
+        },
+        {
+          "name": "Button",
+          "slug": "button",
+          "size": "18.2px"
+        }
+      ]
+    }
+  }
+}

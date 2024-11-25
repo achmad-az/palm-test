@@ -1,0 +1,19 @@
+/*MontaguSlab*/
+
+@font-face {
+    font-family: "Verdana";
+    src: url("../fonts/Verdana.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Allura*/
+
+@font-face {
+    font-family: "Verdana Bold";
+    src: url("../fonts/verdanab.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,37 @@
+/* Inputs */
+
+@layer components {
+    [class^="input-"] {
+        --input-height: 44px;
+        --input-rounded: 8px;
+
+        @apply w-full 
+        rounded-[--input-rounded] 
+        h-[--input-height] 
+        py-[12px] 
+        px-[16px] 
+        shadow-footer-input;
+    }
+
+    .input-dark {
+        @apply placeholder-grey-300 
+        text-white 
+        bg-grey-900;
+    }
+
+    .input-light {
+        @apply placeholder-sacramento 
+        text-sacramento 
+        bg-chiffon;
+    }
+
+    input:-webkit-autofill,
+    input:-webkit-autofill:focus {
+        transition:
+            background-color 600000s 0s,
+            color 600000s 0s;
+    }
+    input[data-autocompleted] {
+        background-color: transparent !important;
+    }
+}

@@ -1,0 +1,81 @@
+@layer base {
+    :root {
+        
+        --color-kelly-green: #72BF44;
+        --color-aspargus: #5D923D;
+        --color-pine: #284616;
+        --color-sacramento: #162114;
+        --color-dark-brown: #4C4417;
+        --color-sepia: #734712;
+        --color-chiffon-light: #fffdfb;
+        --color-chiffon-light-hover: #fffcf8;
+        --color-chiffon-light-active: #fff9f1;
+        --color-chiffon: #ffedd2;
+        --color-chiffon-hover: #e6d5bd;
+        --color-chiffon-active: #ccbea8;
+        --color-chiffon-dark: #bfb29e;
+        --color-chiffon-dark-hover: #998e7e;
+        --color-chiffon-dark-active: #736b5e;
+        --color-chiffon-darker: #59534a;
+        --color-violet: #431F4C;
+        --color-finn: #652F72;
+        --color-plum: #863E98;
+        --color-purpureus: #9E65AD;
+        --color-lavender: #D8B6E2;
+        --color-sheen-gold: #A5953B;
+        --color-sage: #CBC290;
+        --color-grey-100: #EBECE8;
+        --color-grey-300: #C2C4B6;
+        --color-grey-500: #9FA092;
+        --color-grey-700: #6E6F61;
+        --color-grey-900: #4C4C42;
+        --color-greengoblin-42: #156842;
+        --color-greengoblin-4b: #59C14B;
+        --color-greengoblin-1f: #1E681F;
+        --color-white-80: #FFFFFFCC;
+        --color-blue-68: #1E6068;
+        --color-black: #000000;
+        --color-lime-green: #9BDB94;
+        --color-celadon-green: #B9E5B3;
+
+        /* Default colors (Light theme) */
+        
+        /* general */
+        --theme-red: #d21411;
+        --theme-bg-color: var(--color-chiffon-light-active); /* for background color */
+        --theme-text-color: var(--color-pine); /* for text color (menu, text newsletter form on footer) */
+        --theme-text-prm-color: var(--color-pine); /* for text color (heading) */
+        --theme-text-alt-color: var(--color-grey-700); /* for text color (alternative text such as category, date or heading alternative) */
+        --theme-text-alt-2-color: var(--color-grey-700); /* for text color (alternative text such as category, date or heading alternative) */
+        --theme-text-alt-3-color: var(--color-celadon-green); /* for text color (alternative text such as category, date or heading alternative) */
+        --theme-text-content-color: var(--color-grey-900); /* for text color (text content description, article content) */
+        --theme-text-scd-color: var(--color-sacramento); /* for text color secondary */
+        --theme-text-thd-color: var(--color-sacramento); /* for text color third */
+        --theme-text-fth-color: var(--color-sacramento); /* for text color fourth */
+        --theme-text-fifth-color: var(--color-kelly-green); /* for text color fifth */
+        --theme-img-color: var(--color-dark-brown);
+        --theme-img-vid-color: var(--color-sage);
+        --theme-divider-color: var(--color-lime-green);
+        --theme-text-tab-vid-color: var(--color-grey-900);
+        --theme-text-tab-2-vid-color: var(--color-grey-700);
+        --theme-text-share-color: var(--color-grey-900);
+        --theme-text-cat-color: var(--color-grey-700);
+        --theme-scrollbar-color: var(--color-grey-300);
+        --theme-bg-scrollbar-color: var(--color-chiffon-light-active);
+        --theme-text-link-color: var(--color-pine);
+        --swiper-theme-color: var(--color-grey-700);
+
+        /* header and footer */
+        --theme-header-bg-color: var(--color-chiffon);
+        --theme-header-divider-color: var(--color-sage);
+        --theme-header-search-border-color: var(--color-sage);
+
+        --theme-footer-bg-color: var(--color-chiffon-light-active);
+        --theme-footer-divider-color: var(--color-sage);
+        --theme-footer-text-color: var(--color-sacramento);
+
+        /* subscribe box */
+        --theme-bg-subs-box-color: var(--color-sacramento);
+        --theme-text-subs-box-color: var(--color-chiffon);
+    }
+}

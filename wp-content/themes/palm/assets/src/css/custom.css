@@ -1,0 +1,78 @@
+
+
+/* Hero styles */
+
+.hero-description p {
+    
+    @apply mt-6 max-w-2xl m-auto text-sm leading-normal text-gray-300;
+}
+
+/* Contact Form styles */
+
+input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="number"],textarea {
+    @apply w-full border-0 py-1.5 px-2 text-gray-400 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm/6;
+}
+
+input[type="submit"],input[type="button"] {
+    width: auto;
+}
+
+select {
+    width: 100%;
+    border: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #1a202c;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    ring: 1px;
+    ring-inset: inset;
+    ring-color: #d1d5db;
+    placeholder-color: #a0aec0;
+    focus-ring: 2px;
+    focus-ring-inset: inset;
+    focus-ring-color: #3182ce;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.wpcf7-spinner {
+    margin: 0;
+    margin-right: -12px;
+}
+
+/*Header Stye*/
+
+.custom-logo {
+    @apply w-20 h-auto;
+}
+
+.search-field {
+    @apply border-none bg-transparent w-full;
+}
+
+.main-menu {
+    padding-top: 11px;
+}
+
+/*Header Menu*/
+
+.main-navigation ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.main-navigation li {
+    margin-right: 36px;
+}
+
+.main-navigation li:last-child {
+    margin-right: 0;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #284616;
+}

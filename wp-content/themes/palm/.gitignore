@@ -1,0 +1,8 @@
+/node_modules
+/.idea
+/.vscode
+/assets/dist/css/*.css
+/assets/dist/js/*.js
+/assets/dist/js/metabox/*.js
+/mix-manifest.json
+/vendor

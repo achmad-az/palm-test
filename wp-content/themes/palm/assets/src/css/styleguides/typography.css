@@ -1,0 +1,140 @@
+/* Typography */
+
+body,
+p {
+    @apply typography-body-m font-Verdana;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   
+}
+
+/* Defined Typography */
+
+.typography-h6 {
+    @apply font-normal text-h6 leading-h6;
+}
+
+.typography-display {
+    @apply text-display leading-display;
+}
+
+.typography-h1 {
+    @apply font-normal text-h4 leading-h4 md:text-h1 md:leading-h1;
+}
+
+.typography-h2 {
+    @apply font-normal text-h3 leading-h3 md:text-h2 md:leading-h2;
+}
+
+.typography-h3 {
+    @apply font-normal text-h4 leading-h4 md:text-h3 md:leading-h3;
+}
+
+.typography-h4 {
+    @apply font-normal text-h5 leading-h5 md:text-h4 md:leading-h4;
+}
+
+.typography-h5 {
+    @apply font-medium text-h5 leading-h5;
+}
+
+.typography-body-l {
+    @apply font-normal leading-[25.2px] text-[18px];
+}
+
+.typography-body-m {
+    @apply font-normal leading-[28.8px] text-[16px];
+}
+
+.typography-body-s {
+    @apply font-normal leading-[25.92px] text-[14.4px];
+}
+
+.typography-button {
+    @apply font-medium text-button leading-button uppercase;
+}
+
+/* Editor content */
+
+.entry-content,
+.block-editor-block-list__layout {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply mb-[10px];
+    }
+
+    h1 {
+        @apply typography-h1;
+    }
+
+    h2 {
+        @apply typography-h2;
+    }
+
+    h3 {
+        @apply typography-h3;
+    }
+
+    h4 {
+        @apply typography-h4;
+    }
+
+    h5 {
+        @apply typography-h5;
+    }
+
+    h6 {
+        @apply typography-h6;
+    }
+
+    p,
+    ul,
+    ol {
+        a {
+            @apply text-[--theme-text-link-color] underline;
+
+            &:hover {
+                @apply no-underline;
+            }
+        }
+
+        @apply typography-body-l mb-3 text-[--theme-text-content-color];
+    }
+
+    ul:not(.block-editor-block-variation-picker__variations) {
+        li {
+            @apply list-disc list-inside;
+        }
+    }
+
+    ol {
+        li {
+            @apply list-decimal list-inside;
+        }
+    }
+}
+
+.privacy-policy {
+    .entry-content,
+    .block-editor-block-list__layout {
+        p.updated-date {
+            @apply text-[16px] pb-[90px];
+        }
+        ul {
+            li {
+                @apply list-disc list-outside ml-[14px];
+            }
+        }
+    }
+}
