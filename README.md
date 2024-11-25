@@ -1,4 +1,12 @@
-# palm-test
+# Palm-test
+
+In this repository i put the whole wp-content directory & database sql file to make easier to install this theme.
+
+1. just install fresh wordpress in your local
+2. pull this repo
+3. replace your wp-content directory
+4. import the database
+5. by this method you will easier and faster to install this theme and plugin
 
 # Contact Submission Plugin
 
